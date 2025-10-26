@@ -13,7 +13,7 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.SignUpPageController">
    <children>
-      <AnchorPane layoutX="-9.0" layoutY="-9.0" prefHeight="456.0" prefWidth="645.0" style="-fx-background-color: #4CAF50;">
+      <AnchorPane layoutX="-4.0" layoutY="-4.0" prefHeight="456.0" prefWidth="645.0" style="-fx-background-color: #4CAF50;">
          <children>
             <ImageView fitHeight="581.0" fitWidth="449.0" layoutX="2.0" layoutY="-1.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: 40%;">
                <image>
@@ -80,8 +80,8 @@
                   <Font size="12.0" />
                </font>
             </TextField>
-            <Text layoutX="248.0" layoutY="517.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alredy have an account?" wrappingWidth="136.47265625" />
-            <Button layoutX="386.0" layoutY="500.0" mnemonicParsing="false" onAction="#btnLogin" prefHeight="17.0" prefWidth="54.0" style="-fx-background-color: #ff0b0b;" text="Login" textFill="WHITE" />
+            <Text layoutX="269.0" layoutY="513.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alredy have an account?" wrappingWidth="136.47265625" />
+            <Button layoutX="292.0" layoutY="523.0" mnemonicParsing="false" onAction="#btnLogin" prefHeight="26.0" prefWidth="70.0" style="-fx-background-color: #d01111;" text="Login" textFill="WHITE" />
          </children>
       </AnchorPane>
    </children>
