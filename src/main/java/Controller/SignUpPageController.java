@@ -32,8 +32,12 @@ public class SignUpPageController {
     }
 
     @FXML
-    void btnSingUp(ActionEvent event) {
-
+    void btnSingUp(ActionEvent event) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/View/MainPage.fxml"));
+        Scene scene = new Scene(loader.load());
+        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        stage.setScene(scene);
+        stage.show();
     }
 
 }
