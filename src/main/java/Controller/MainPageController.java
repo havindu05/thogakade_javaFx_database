@@ -31,7 +31,7 @@ public class MainPageController {
 
     @FXML
     void btnHomePage(ActionEvent event) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/View/HomePage.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/View/MainPage.fxml"));
         Scene scene = new Scene(loader.load());
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.setScene(scene);
